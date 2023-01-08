@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:project_managemet/screen/home/dashboard.dart';
+
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key, required String title}) : super(key: key);
@@ -84,25 +86,3 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class DashboardScreen extends StatefulWidget {
-  const DashboardScreen({Key? key}) : super(key: key);
-
-  @override
-  State<DashboardScreen> createState() => _DashboardScreenState();
-}
-
-class _DashboardScreenState extends State<DashboardScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
-      body: Center(
-        child: Image.asset(
-          "assets/images/proriatylogo.png",
-          width: 200,
-          height: 88,
-        ),
-      ),
-    );
-  }
-}

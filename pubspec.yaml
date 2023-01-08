@@ -41,6 +41,8 @@ dependencies:
   provider: ^6.0.4
   introduction_screen: ^3.0.2
   shared_preferences: ^2.0.15
+  intl: ^0.18.0
+  dotted_decoration: ^2.0.0
 
 dev_dependencies:
   flutter_test:
